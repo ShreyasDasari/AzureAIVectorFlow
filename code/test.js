@@ -1,15 +1,27 @@
+const fs = require("fs");
+const path = require("path");
 const axios = require("axios");
 const dotenv = require("dotenv");
-const fs = require("fs");
+const { BlobServiceClient, StorageSharedKeyCredential } = require("@azure/storage-blob");
 const {
   SearchIndexClient,
   SearchClient,
   AzureKeyCredential,
 } = require("@azure/search-documents");
 
+
 async function main() {
   // Load environment variables from .env file
   dotenv.config({ path: "../.env" });
+
+  // First, upload the JSON file to Azure Blob Storage
+  try {
+      await uploadJsonToBlob();
+      console.log("JSON file uploaded successfully.");
+  } catch (error) {
+      console.error("Failed to upload JSON file:", error);
+      return;
+  }
 
   // Create Azure AI Search index
   try {
@@ -37,28 +49,83 @@ async function main() {
   await doSemanticHybridSearch();
 }
 
-async function generateDocumentEmbeddings() {
-  console.log("Reading data/testformat.json...");
-  const inputData = JSON.parse(
-    fs.readFileSync("../data/testformat.json", "utf-8")
-  );
-
-  console.log("Generating embeddings with Azure OpenAI...");
-  const outputData = [];
-  for (const item of inputData) {
-    const titleEmbeddings = await generateEmbeddings(item.title);
-    const contentEmbeddings = await generateEmbeddings(item.content);
-
-    outputData.push({
-      ...item,
-      titleVector: titleEmbeddings,
-      contentVector: contentEmbeddings,
+async function uploadJsonToBlob() {
+    const account = process.env.AZURE_STORAGE_ACCOUNT_NAME;
+    const accountKey = process.env.AZURE_STORAGE_ACCOUNT_ACCESS_KEY;
+    const containerName = process.env.AZURE_STORAGE_BLOB_CONTAINER_NAME;
+    const blobName = "testformat.json"; // Replace with your actual file name
+    const filePath = "../data/testformat.json"; // Adjust the path according to your file's location
+  
+    const sharedKeyCredential = new StorageSharedKeyCredential(account, accountKey);
+    const blobServiceClient = new BlobServiceClient(
+      `https://${account}.blob.core.windows.net`,
+      sharedKeyCredential
+    );
+  
+    const containerClient = blobServiceClient.getContainerClient(containerName);
+    const blockBlobClient = containerClient.getBlockBlobClient(blobName);
+  
+    // Read the JSON file content
+    const fileContent = fs.readFileSync(filePath, "utf8");
+  
+    console.log(`Uploading file ${blobName} to container ${containerName}...`);
+    
+    // Upload the file content to the blob
+    await blockBlobClient.upload(fileContent, fileContent.length, {
+      blobHTTPHeaders: { blobContentType: "application/json" }
     });
-  }
+  
+    console.log(`${blobName} uploaded successfully.`);
+}
 
-  fs.writeFileSync("../output/testVectors.json", JSON.stringify(outputData));
+async function generateDocumentEmbeddings() {
+    console.log("Reading JSON from Azure Blob Storage...");
 
-  return outputData;
+    const account = process.env.AZURE_STORAGE_ACCOUNT_NAME;
+    const accountKey = process.env.AZURE_STORAGE_ACCOUNT_ACCESS_KEY;
+    const sharedKeyCredential = new StorageSharedKeyCredential(account, accountKey);
+    const blobServiceClient = new BlobServiceClient(
+        `https://${account}.blob.core.windows.net`,
+        sharedKeyCredential
+    );
+
+    const containerName = process.env.AZURE_STORAGE_BLOB_CONTAINER_NAME;
+    const blobName = process.env.AZURE_STORAGE_BLOB_FILE_NAME; // Adjust this to your JSON file name
+
+    const containerClient = blobServiceClient.getContainerClient(containerName);
+    const blobClient = containerClient.getBlobClient(blobName);
+    const downloadBlockBlobResponse = await blobClient.download(0);
+    const buffer = await streamToBuffer(downloadBlockBlobResponse.readableStreamBody);
+    const jsonData = JSON.parse(buffer.toString());
+
+    // Ensure jsonData is an array
+    if (!Array.isArray(jsonData)) {
+        jsonData = [jsonData]; // Convert to array if it's a single object
+    }
+
+    console.log("JSON Data:", jsonData);
+
+    console.log(jsonData.title)
+
+    console.log("Generating embeddings with Azure OpenAI...");
+    const outputData = [];
+    for (const item of jsonData) {
+        console.log(item.title);
+        const titleEmbeddings = await generateEmbeddings(item.title);
+        const contentEmbeddings = await generateEmbeddings(item.content);
+        outputData.push({
+            ...item,
+            titleVector: titleEmbeddings,
+            contentVector: contentEmbeddings,
+        });
+    }
+
+    console.log("Embeddings generated successfully.");
+    
+    fs.writeFileSync("../output/blobVectors.json", JSON.stringify(outputData));
+
+    return outputData;
+
 }
 
 async function createSearchIndex() {
@@ -160,7 +227,7 @@ async function doPureVectorSearch() {
     new AzureKeyCredential(searchServiceApiKey)
   );
 
-  const query = "tools for software development";
+  const query = "What is cryptocurrency?";
   const response = await searchClient.search(undefined, {
     vectorQueries: [{
       kind: "vector",
@@ -225,7 +292,7 @@ async function doCrossFieldVectorSearch() {
     new AzureKeyCredential(searchServiceApiKey)
   );
 
-  const query = "what does dium do?";
+  const query = "What are product steps?";
   const response = await searchClient.search(undefined, {
     vectorQueries: [{
       kind: "vector",
@@ -257,7 +324,7 @@ async function doVectorSearchWithFilter() {
     new AzureKeyCredential(searchServiceApiKey)
   );
 
-  const query = "tools for software development";
+  const query = "What are the next product step?";
   const response = await searchClient.search(undefined, {
     vectorQueries: [{
       kind: "vector",
@@ -290,7 +357,7 @@ async function doHybridSearch() {
     new AzureKeyCredential(searchServiceApiKey)
   );
 
-  const query = "scalable storage solution";
+  const query = "product step";
   const response = await searchClient.search(query, {
     vectorQueries: [{
       kind: "vector",
@@ -400,6 +467,19 @@ async function generateEmbeddings(text) {
 
   const embeddings = response.data.data[0].embedding;
   return embeddings;
+}
+
+async function streamToBuffer(readableStream) {
+    return new Promise((resolve, reject) => {
+      const chunks = [];
+      readableStream.on("data", (data) => {
+        chunks.push(data instanceof Buffer ? data : Buffer.from(data));
+      });
+      readableStream.on("end", () => {
+        resolve(Buffer.concat(chunks));
+      });
+      readableStream.on("error", reject);
+    });
 }
 
 main();

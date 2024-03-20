@@ -1,0 +1,2974 @@
+{
+    "id": 191,
+    "name": "Dium",
+    "overview": "we are a cyrpto company that helps artists manage their copyrights and licenses, using NFTs",
+    "address": null,
+    "website": "startdium.com",
+    "phoneNumber": null,
+    "email": null,
+    "tam": null,
+    "sam": null,
+    "som": null,
+    "businessModel": "saas,hardware,marketplace",
+    "twitter": "@tes",
+    "linkedin": null,
+    "facebook": null,
+    "instagram": null,
+    "productStep": "idea,requirements,brainstorm,Defined the problem,Brainstormed features,Validated core features",
+    "customerStep": ",exploring,validating,defining,Got prototype feedback,Talked to them about needs,Researched their needs",
+    "marketStep": ",exploring,researching,brand,Picked focus market(s),Sized my market opportunity",
+    "focusArea": null,
+    "industry": "Cryptocurrency, Art",
+    "targetMarket": null,
+    "levelOneComplete": false,
+    "levelTwoComplete": false,
+    "levelThreeComplete": true,
+    "levelFourComplete": false,
+    "industryOther": "",
+    "journey": {
+        "id": null,
+        "title": "Journey",
+        "description": "v9.2",
+        "levels": [
+            {
+                "name": "explore",
+                "label": "1. Explore",
+                "description": "In this level, you'll embark on a journey of understanding the problem you're aiming to solve, identifying your target audience, and determining which market your initial customers belong to. Let's get started!",
+                "content": {
+                    "totalQuestions": 9,
+                    "answeredQuestions": 0,
+                    "currentStep": 1,
+                    "lastUpdated": null,
+                    "isLevel": true
+                },
+                "steps": [
+                    {
+                        "type": "Introv2",
+                        "label": "Product",
+                        "content": {
+                            "image": "undraw_Questions_re_1fy7_orange.png",
+                            "tableOfContentsCopy": "Defining your Problem",
+                            "intro": "Have you ever found yourself trying to solve a problem that you don't fully understand? In this exercise, we're going to take a step back and explore the problem you're trying to solve.\n\nBy gaining a deeper understanding of the problem, you'll be better equipped to develop effective solutions that address the root cause of the issue. This will also help you avoid wasting time and resources on ineffective or misguided solutions.",
+                            "outcomes": [
+                                "Defined your problem"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "RadioInput",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "Which are you?",
+                            "question": "What describes you best?",
+                            "name": "knowSolution",
+                            "options": [
+                                {
+                                    "name": "knowSolution",
+                                    "label": "I know my problem and solution",
+                                    "value": "both"
+                                },
+                                {
+                                    "name": "knowSolution",
+                                    "label": "I have an amazing solution, but no problem",
+                                    "value": "solution"
+                                },
+                                {
+                                    "name": "knowSolution",
+                                    "label": "I don't have a problem or a solution yet",
+                                    "value": "none"
+                                }
+                            ],
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "RadioInput",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "Are you close to the problem?",
+                            "question": "How close to the problem are you?",
+                            "name": "problemProximity",
+                            "options": [
+                                {
+                                    "name": "problemProximity",
+                                    "label": "I am my customer (close)",
+                                    "value": "close"
+                                },
+                                {
+                                    "name": "problemProximity",
+                                    "label": "I work in the industry (medium)",
+                                    "value": "medium"
+                                },
+                                {
+                                    "name": "problemProximity",
+                                    "label": "my family or friends are going through the problem (far)",
+                                    "value": "far"
+                                },
+                                {
+                                    "name": "problemProximity",
+                                    "label": "I heard/read about the problem (furthest)",
+                                    "value": "none"
+                                }
+                            ],
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "Defining your problem",
+                            "title": "Defining your problem",
+                            "tips": [
+                                {
+                                    "copy": "What are the three words that describe the problem?"
+                                },
+                                {
+                                    "copy": "Explain the problem you are trying to solve in one sentence?"
+                                },
+                                {
+                                    "copy": "How would you explain this to someone who is not from your industry?"
+                                },
+                                {
+                                    "copy": "Do not spend too much energy on the who; you should have somewhat of an idea, and we will spend more time on that next."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.isixsigma.com/getting-started/how-to-write-an-effective-problem-statement/",
+                                    "copy": "Think of the symptoms of the problem, don't jump to solutions, and search for the cause and circumstances of the problem"
+                                },
+                                {
+                                    "url": "https://medium.com/@jakemendel/seriously-whats-your-startup-s-problem-b3a884c54ab4",
+                                    "copy": "What is the problem, who do you think has the problem, and why is this a problem? Think of these 3 questions as you draft your problem statement"
+                                }
+                            ],
+                            "question": "What problem are you solving?",
+                            "name": "problem",
+                            "example": "When Showflix started they were looking to solve for the inconvenience of going to the video store and paying late fees",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "Problem Defined!",
+                            "name": "explore-product-end",
+                            "viewedBefore": "false",
+                            "initialViewTimestamp": null,
+                            "conclusion": "Congratulations on completing this step of your startup journey! To help you stay on track, we've put together a checklist of recommended items for you to review at this stage. You can easily access this checklist now and start checking off each item as you complete it. We're here to support you every step of the way!",
+                            "checklistItems": [
+                                "Make sure your personal finances will allow you to start and support your business needs, or create a plan to get it there",
+                                "Talk to others about your idea and gather feedback"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "Market",
+                        "content": {
+                            "image": "undraw_Marketing_re_7f1g.png",
+                            "tableOfContentsCopy": "Finding your Target Market",
+                            "intro": "As a founder, you're driven by the desire to solve problems and make people's lives easier. However, it can be challenging to determine which problem to tackle first. With limited resources, it's crucial to narrow down your target market to ensure the most efficient use of your time and energy. For example, if you have an HR product for corporations, you may want to focus on a specific size or type of company. \n\nLet's dive deeper into this process and define your target market.",
+                            "outcomes": []
+                        }
+                    },
+                    {
+                        "type": "Dropdown",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "What is your Target Industry?",
+                            "question": "Which industry are you trying to target? \n\nFor example, you can be an HR solution for Health care providers; your target market would be healthcare.",
+                            "name": "targetIndustry",
+                            "placeholder": "Select their industry",
+                            "options": [
+                                "metadata/industries"
+                            ],
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "Defining your Target Market",
+                            "title": "Defining your Target Market",
+                            "tips": [
+                                {
+                                    "copy": "What are the characteristics of your Target Market within your Target Industry? Consider factors such as age, gender, location, income level, education, and occupation. These details will help you understand the specific characteristics of your potential customers."
+                                },
+                                {
+                                    "copy": "Where do your customers live and spend time? Explore the interests, attitudes, values, lifestyle choices, and behaviors of your target audience. This information will provide insights into their motivations and purchasing habits."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.inc.com/guides/2010/06/defining-your-target-markets.html",
+                                    "copy": "Deeper advice on identifying and analyzing your target market, including tips on gathering customer data, evaluating market trends, and understanding customer behavior"
+                                }
+                            ],
+                            "question": "What does your Target Market look like?",
+                            "name": "targetMarket",
+                            "example": "Showflix primarily caters to the global entertainment and media market. They focus on providing streaming services for movies, TV shows, documentaries, and other forms of digital content. Their target market includes individuals who have access to high-speed internet and seek on-demand entertainment options.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "RadioInput",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "What's your Target Market experience?",
+                            "question": "Do you have prior experience working in this market?",
+                            "name": "targetMarketExperience",
+                            "options": [
+                                {
+                                    "name": "targetMarketExperience",
+                                    "label": "I was employed in this market",
+                                    "value": "workedIn"
+                                },
+                                {
+                                    "name": "targetMarketExperience",
+                                    "label": "I sold to this market",
+                                    "value": "soldTo"
+                                },
+                                {
+                                    "name": "targetMarketExperience",
+                                    "label": "I worked and sold to this market",
+                                    "value": "workedAndSoldTo"
+                                },
+                                {
+                                    "name": "targetMarketExperience",
+                                    "label": "I have no experience in this market",
+                                    "value": "none"
+                                }
+                            ],
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "Calculating your TAM",
+                            "title": "Calculating your TAM",
+                            "tips": [
+                                {
+                                    "copy": "The size of your Total Addressable Market (TAM) is critical for setting realistic goals, guiding business decisions, attracting investors, and positioning your business within the market."
+                                },
+                                {
+                                    "copy": "Investors are always interested in the potential size of the market they are investing in. If you can demonstrate that your business is targeting a large and growing TAM, it can be more attractive to potential investors."
+                                },
+                                {
+                                    "copy": "It is recommended to estimate your TAM from a bottom-up approach. This is when you take your total possible customers and multiply it by the price per year for your product or the one-time cost of buying your product."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.youtube.com/watch?v=M_RMTC2YmXY",
+                                    "copy": "Youtube video on how to calculate your bottom-up TAM"
+                                },
+                                {
+                                    "url": "https://www.sba.gov/business-guide/plan-your-business/market-research-competitive-analysis",
+                                    "copy": "Guide on how to do market research and links to data source to help with understanding your TAM"
+                                },
+                                {
+                                    "url": "https://apps.bea.gov/iTable/?reqid=150&step=2&isuri=1&categories=gdpxind",
+                                    "copy": "General industry data for understanding your TAM"
+                                }
+                            ],
+                            "question": "What is your Total Addressable Market (TAM)?",
+                            "name": "tam",
+                            "example": "Showflix has a bottoms up TAM of $90B because there are 1 billion people who might use a movie streaming service, and they charge $90 per year.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "Ideal Market Defined!",
+                            "name": "explore-market-end",
+                            "viewedBefore": "false",
+                            "initialViewTimestamp": null,
+                            "conclusion": "Congratulations on completing this step of your startup journey! To help you stay on track, we've put together a checklist of recommended items for you to review at this stage. You can easily access this checklist now and start checking off each item as you complete it. We're here to support you every step of the way!",
+                            "checklistItems": [
+                                "Conduct research on a permit, license, or other fees required to start your business",
+                                "Investigate industry barriers to entry, such as regulations and compliance requirements",
+                                "Explore funding opportunities like grants and funding programs that may be available for your industry."
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "Customer",
+                        "content": {
+                            "image": "undraw_Personal_info_re_ur1n_red.png",
+                            "tableOfContentsCopy": "Finding your Ideal Customer",
+                            "intro": "As a founder, you're driven by the desire to solve problems and make people's lives easier. However, it can be challenging to determine which problem to tackle first. That's why we're going to guide you through a process that begins with identifying a specific person who is dealing with the problem you are solving. By placing ourselves in their shoes and empathizing with their experience, we can gain a better understanding of the problem and develop a more effective solution. Let's get started!",
+                            "outcomes": []
+                        }
+                    },
+                    {
+                        "type": "RadioInput",
+                        "label": "Customer",
+                        "content": {
+                            "tableOfContentsCopy": "People or Businesses?",
+                            "question": " Is your ideal customer a person or a business?",
+                            "name": "idealCustomerType",
+                            "options": [
+                                {
+                                    "name": "idealCustomerType",
+                                    "label": "People (consumer)",
+                                    "value": "consumer"
+                                },
+                                {
+                                    "name": "idealCustomerType",
+                                    "label": "Businesses (enterprise)",
+                                    "value": "enterprise"
+                                }
+                            ],
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Customer",
+                        "content": {
+                            "tableOfContentsCopy": "Defining your Ideal Customer",
+                            "title": "Defining your Ideal Customer",
+                            "tips": [
+                                {
+                                    "copy": "Describe the person in their situation; who specifically is your product or service designed for? Think about their age, gender, occupation, interests, and lifestyle. The more specific you can get, the better."
+                                },
+                                {
+                                    "copy": "Think about how you would describe their situation in life, their lifestyles, interests, and where they spend their time"
+                                },
+                                {
+                                    "copy": "Focus on one ideal customer at this point"
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://xtensio.com/user-persona-template/",
+                                    "copy": "We love using this template to define and visualize our ideal customer"
+                                },
+                                {
+                                    "url": "https://www.inc.com/guides/2010/06/defining-your-target-markets.html",
+                                    "copy": "Look at the current customers who are facing the problem you have defined; understand their demographic and psychographic"
+                                }
+                            ],
+                            "question": "What does your Ideal Customer look like?",
+                            "name": "idealCustomer",
+                            "example": "Showflix was targeting busy families, who find it difficult to rent and return movies. They were aged 20-30, so they were comfortable with technology.  They spend time at home watching tv and movies with their family.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "Customer",
+                        "content": {
+                            "tableOfContentsCopy": "Ideal Customer Defined!",
+                            "name": "explore-customer-end",
+                            "viewedBefore": "false",
+                            "initialViewTimestamp": null,
+                            "conclusion": "Congratulations on completing this step of your startup journey! To help you stay on track, we've put together a checklist of recommended items for you to review at this stage. You can easily access this checklist now and start checking off each item as you complete it. We're here to support you every step of the way!",
+                            "checklistItems": [
+                                "Conduct thorough research on your customer's needs",
+                                "Craft a clear and compelling value proposition statement"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "End",
+                        "label": "level",
+                        "content": {
+                            "tableOfContentsCopy": "End of the level"
+                        }
+                    },
+                    {
+                        "type": "OnePager",
+                        "label": "level",
+                        "content": {
+                            "question": "",
+                            "tableOfContentsCopy": "One Pager"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "research",
+                "label": "2. Research",
+                "description": "We'll be taking your market research to the next level by engaging with your customers directly. This hands-on approach will provide invaluable insights that can help shape your product strategy and validate your research and assumptions.",
+                "content": {
+                    "totalQuestions": 10,
+                    "answeredQuestions": 0,
+                    "currentStep": 1,
+                    "lastUpdated": null,
+                    "isLevel": true
+                },
+                "steps": [
+                    {
+                        "type": "Introv2",
+                        "label": "Market",
+                        "content": {
+                            "image": "undraw_Web_search_re_efla.png",
+                            "tableOfContentsCopy": "Target Market Research",
+                            "intro": "Researching your market landscape is a vital step toward building a thriving business. By comprehensively researching your competition and industry trends, you'll be well-equipped to develop a strategy that resonates with your target audience and sets you apart. This will also help you identify opportunities for growth and position your business for long-term success. \n\nLet's dive into this crucial step of your startup journey and equip you with the tools you need to thrive!",
+                            "outcomes": []
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "Competitive Analysis",
+                            "title": "Competitive Analysis",
+                            "tips": [
+                                {
+                                    "copy": "Identifying competitors brings strategic insight to help develop your solution. This will help you understand how you are different from them."
+                                },
+                                {
+                                    "copy": "Analyze competitors' strategies by examining their marketing, pricing, and offerings."
+                                },
+                                {
+                                    "copy": "It can be helpful to conduct a SWOT analysis on your competitors to identify strengths, weaknesses, opportunities, and threats."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.sitevisibility.co.uk/blog/2017/02/20/11-competitor-research-tools-to-help-you-find-your-competitors/",
+                                    "copy": "How to monitor competitors' online presence and analyze their strategies"
+                                },
+                                {
+                                    "url": "https://www.lloydsbank.com/business/resource-centre/business-guides/understanding-your-market.html",
+                                    "copy": "This guide helps you analyze target customers, competition, and market trends"
+                                }
+                            ],
+                            "question": "List out your competitors and their strategies",
+                            "name": "competitionNames",
+                            "example": "Showflix's competition was: MovieBuster - movie rental stores that used tv, magazine, and billboard ads. They have late fees and rental costs and sell popcorn and candy like a movie theater. Return drop-offs. Some stores have events and/or areas where people and kids can hang out and watch movies or shows.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "Differentiation",
+                            "title": "Differentiation",
+                            "tips": [
+                                {
+                                    "copy": "Now that you know what your competitor's strategies are, how are you going to stand out and gain a strong market position?"
+                                },
+                                {
+                                    "copy": "Consider aspects such as functionality, performance, design, user experience, pricing, or customer service. Look for opportunities to excel in one or more of these areas."
+                                },
+                                {
+                                    "copy": "You can create a Unique Value Proposition (UVP) that resonates with your target audience and attracts customers to your brand. Identify the current trends, pain points, and gaps that your product could address."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.sba.gov/business-guide/plan-your-business/market-research-competitive-analysis",
+                                    "copy": "An excellent guide from the Small Business Administration (SBA) for a deeper dive into how to Understand your target market, analyze competition, identify opportunities, and make informed decisions. The guide also has links to market data."
+                                },
+                                {
+                                    "url": "https://www.lloydsbank.com/business/resource-centre/business-guides/understanding-your-market.html",
+                                    "copy": "Another excellent guide on how to Research your target audience, analyze industry trends, identify customer needs, and adapt your strategies accordingly."
+                                }
+                            ],
+                            "question": "What differentiates you from your competition?",
+                            "name": "differentiation",
+                            "example": "Showflix differentiates itself with a monthly subscription instead of rental fees and never had late fees. They also did everything through a website and delivery, so people never had to go to the store to rent a movie.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "Barriers to Entry",
+                            "title": "Barriers to Entry",
+                            "tips": [
+                                {
+                                    "copy": "Research your industry to understand the competitive landscape, market trends, and key players. Identify the entry barriers that exist in the industry as a whole."
+                                },
+                                {
+                                    "copy": "Determine any intellectual property (IP) barriers by researching existing patents, trademarks, copyrights, or trade secrets."
+                                },
+                                {
+                                    "copy": "Research the regulatory landscape of your industry to make sure you are compliant with the law. Examples include permits, licenses, or certifications required to operate in the market."
+                                },
+                                {
+                                    "copy": "Also, consider the resources needed to start and scale."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://learn.marsdd.com/article/barriers-to-entry-factors-preventing-startups-from-entering-a-market/",
+                                    "copy": "Learn about factors that can hinder market entry. Understand regulations, capital requirements, brand loyalty, and more. Navigate challenges, strategize, and pave the way for startup success."
+                                },
+                                {
+                                    "url": "https://www.entrepreneur.com/article/289080",
+                                    "copy": "​​This article discusses examples of common barriers, such as patents, distribution networks, and customer switching costs also provides insights on identifying and addressing these barriers to increase a startup's chances of success."
+                                }
+                            ],
+                            "question": "What are your barriers to entering your target market?",
+                            "name": "marketBarriers",
+                            "example": "Showflix's barriers to entry were a high initial investment needed to build up their DVD catalog for rental, convincing people to change their behavior of renting videos from a store, and postal service reliability.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "Market Research Done!",
+                            "name": "research-market-end",
+                            "viewedBefore": "false",
+                            "initialViewTimestamp": null,
+                            "conclusion": "Congrats on finishing this step of the level! Here are some checklist items that we recommend doing at this point of your startup journey. You can find them in your checklist now.",
+                            "checklistItems": [
+                                "Double-check if you need permits, licenses, or regulations to follow",
+                                "Set alerts and get involved in the industry to make sure you're staying up to date",
+                                "Research what messaging will make you stand out in your target market"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "Customer",
+                        "content": {
+                            "image": "undraw_Interview_re_e5jn_red.png",
+                            "tableOfContentsCopy": "Engaging with your Ideal Customers",
+                            "intro": "Connecting with your customers is vital to your success. By understanding their needs, frustrations, and challenges, you can ensure you are on the right track.\n\nLet's engage with your customers directly to gain a deeper understanding of their unique needs!",
+                            "outcomes": []
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Customer",
+                        "content": {
+                            "tableOfContentsCopy": "Number of Survey Responses",
+                            "title": "Number of Survey Responses",
+                            "tips": [
+                                {
+                                    "copy": "When surveying your customers initially, aim to strike a balance between gathering essential information and respecting their time."
+                                },
+                                {
+                                    "copy": "Keep your survey concise, focused, and easy to complete, and offer incentives if appropriate to increase participation rates."
+                                },
+                                {
+                                    "copy": "Use a mix of multiple-choice questions, rating scales, and open-ended questions to gather both quantitative and qualitative feedback for a more comprehensive understanding of your customers."
+                                },
+                                {
+                                    "copy": "Make sure you don't have any leading questions."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.startdium.com/post/top-3-tips-for-market-research-surveys",
+                                    "copy": "Top 3 FounderWay tips for Market Research Surveys"
+                                },
+                                {
+                                    "url": "https://www.pollfish.com/blog/market-research/5-tips-to-distribute-your-survey/",
+                                    "copy": "Guide on how to maximize survey reach by using multiple channels, targeting specific groups, optimizing for mobile, offering incentives, and partnering with relevant sites/apps"
+                                }
+                            ],
+                            "question": "How many survey responses did you get?",
+                            "name": "numberSurveyResponses",
+                            "example": "Enter a number here",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Customer",
+                        "content": {
+                            "tableOfContentsCopy": "Survey Response Analysis",
+                            "title": "Survey Response Analysis",
+                            "tips": [
+                                {
+                                    "copy": "Remove any incomplete or inconsistent responses to organize your data"
+                                },
+                                {
+                                    "copy": "Conduct quantitative analysis to identify patterns, trends, and statistical insights within the survey data. Look for statistically significant findings that provide evidence for or against the problem you are validating."
+                                },
+                                {
+                                    "copy": "Perform qualitative analysis to extract valuable insights. This can involve thematic analysis, coding, or sentiment analysis to identify recurring themes, common pain points, or specific customer feedback. Look for qualitative evidence that supports or expands upon the quantitative findings."
+                                },
+                                {
+                                    "copy": "Did the responses validate or counter your assumptions?"
+                                },
+                                {
+                                    "copy": "Were you correct on who your ideal customer is?"
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.proprofssurvey.com/blog/how-to-analyze-survey-data/",
+                                    "copy": "This article covers steps such as data cleaning, quantitative analysis techniques, and qualitative analysis methods."
+                                },
+                                {
+                                    "url": "https://www.wallstreetmojo.com/qualitative-analysis/",
+                                    "copy": "Review of the methods to perform qualitative analysis"
+                                }
+                            ],
+                            "question": "What were the biggest learnings from your survey responses?",
+                            "name": "surveyResponsesBiggestLearning",
+                            "example": "Showflix learned that the biggest pain with their competitors was their late fees and that their ideal customer wanted to avoid going to a store to rent and return movies.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Customer",
+                        "content": {
+                            "tableOfContentsCopy": "Number of Interviews",
+                            "title": "Number of Interviews",
+                            "tips": [
+                                {
+                                    "copy": "Leverage your existing networks, industry groups, and online communities to connect with potential customers. "
+                                },
+                                {
+                                    "copy": "During the interviews, ask open-ended questions to understand their needs, challenges, and expectations related to your product or service. Encourage them to provide detailed responses and share their experiences."
+                                },
+                                {
+                                    "copy": "Take notes and listen carefully to gain valuable insights that can shape your startup's strategies."
+                                },
+                                {
+                                    "copy": "Make sure you don't have any leading questions."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.startdium.com/post/tips-for-market-research-interviews",
+                                    "copy": "FounderWay tips on how to conduct a user interview"
+                                },
+                                {
+                                    "url": "https://allfactors.com/blog/customer-discovery-interview-questions/",
+                                    "copy": "Sample questions to use in your interview "
+                                }
+                            ],
+                            "question": "How many interviews have you done?",
+                            "name": "numberInterviews",
+                            "example": "Enter a number here",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Customer",
+                        "content": {
+                            "tableOfContentsCopy": "Interview Analysis",
+                            "title": "Interview Analysis",
+                            "tips": [
+                                {
+                                    "copy": "Group similar insights to gain a deeper understanding of the needs, preferences, and pain points of your target audience."
+                                },
+                                {
+                                    "copy": "Identify under-served needs or unmet desires, you can adapt your product or explore new market segments that align with customer preferences."
+                                },
+                                {
+                                    "copy": "Validate assumptions, product features, and opportunities. It ensures that your startup remains customer-centric and increases your chances of success."
+                                },
+                                {
+                                    "copy": "What is liked and disliked about the current solutions?"
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://condens.io/user-interview-analysis/",
+                                    "copy": "This article helps understand how to convert raw interview data into insights "
+                                }
+                            ],
+                            "question": "What was the biggest learnings from your interviews?",
+                            "name": "interviewBiggestLearning",
+                            "example": "Showflix learned what people would think about a DVD rental service that had no storefront and what obstacles they would need to address for them to trust and rent from Showflix.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "Customer",
+                        "content": {
+                            "tableOfContentsCopy": "Learned insights from your Ideal Customer!",
+                            "name": "customer-insights-end",
+                            "viewedBefore": "false",
+                            "initialViewTimestamp": null,
+                            "conclusion": "Congrats on finishing this step of the level! Here are some checklist items that we recommend doing at this point of your startup journey. You can find them in your checklist now.",
+                            "checklistItems": [
+                                "Set reminders to keep in touch with your customers, they are your product's north star.",
+                                "Research what type of brand will resonate with your ideal customer."
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "Product",
+                        "content": {
+                            "image": "undraw_Building_blocks_re_5ahy_orange.png",
+                            "tableOfContentsCopy": "Defining your Minimum Viable Product (MVP)",
+                            "intro": "Understanding your customers is key to crafting a successful product. By knowing their likes and dislikes of the current solutions they are using, you can develop a solution that truly meets their needs. This step will help you plan out your prototype or Minimum Viable Product (MVP) from the insights gathered from your customer and market research.",
+                            "outcomes": []
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "Brainstorm Features",
+                            "title": "Brainstorm Features",
+                            "tips": [
+                                {
+                                    "copy": "Generate feature ideas that directly address customer pain points, fulfill unmet needs, and provide value to your target audience."
+                                },
+                                {
+                                    "copy": "Try and list everything your customer would like to have in a dream product."
+                                },
+                                {
+                                    "copy": "What did users like about current solutions?"
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://uxdesign.cc/what-would-be-the-10-star-experience-beyond-dac0d0962b68",
+                                    "copy": "Goes over the 10-star Experience method used by Airbnb for creating a memorable product and experience for their customers"
+                                },
+                                {
+                                    "url": "https://digital.hbs.edu/platform-digit/submission/how-to-turn-customer-insights-into-product-ideas/",
+                                    "copy": "This article explores techniques for translating customer insights into innovative product ideas."
+                                }
+                            ],
+                            "question": "What features did you brainstorm for your product based on your customer and market research?",
+                            "name": "brainstormedFeatures",
+                            "example": "Showflix's brainstorm list: no late fees, easy way to select movies to rent, use USPS to send movies, a way to stream movies, pick up movies from users, have users send movies back to them, have a drop spot for rental returns for easy pickup.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "Core MVP Features",
+                            "title": "Core MVP Features",
+                            "tips": [
+                                {
+                                    "copy": "Consider which features are critical in delivering the core benefits of your product based on what would provide the highest value to your users."
+                                },
+                                {
+                                    "copy": "Pick 3 features to avoid unnecessary complexity and additional functionalities that do not directly contribute to solving the core problem."
+                                },
+                                {
+                                    "copy": "Keep things simple to stay focused and to allow you to build, measure, and test faster."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.startdium.com/post/FounderWay-roadmap-framework",
+                                    "copy": "Guide on how to simplify your vision down to your core MVP features"
+                                },
+                                {
+                                    "url": "https://www.ficode.co.uk/blog/a-mini-guide-to-picking-mvp-features/",
+                                    "copy": "Understand how to prioritize and pick the right features to build for your MVP"
+                                }
+                            ],
+                            "question": "What are your core features for your Minimum Viable Product (MVP)?",
+                            "name": "coreFeatures",
+                            "example": "Showflix's MVP list: no late fees, easy way to select movies to rent, and use USPS to send movies and return movies.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "MVP Technical Requirements",
+                            "title": "MVP Technical Requirements",
+                            "tips": [
+                                {
+                                    "copy": "Research and understand different technologies, programming languages, frameworks, and tools that are relevant to your product's development."
+                                },
+                                {
+                                    "copy": "Be aware of the ease of scalability and maintenance of your MVP."
+                                },
+                                {
+                                    "copy": "If you use a no-code platform, make sure it is easy to migrate away from and that there is a large community of developers for support and future development."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://hackernoon.com/how-to-pick-the-right-web-technology-stack-for-your-product-f6d94440af2f",
+                                    "copy": "How to pick your tech stack and an intro to the technical side of software products"
+                                },
+                                {
+                                    "url": "https://www.protolabs.com/en-gb/resources/blog/accelerating-hardware-prototyping-for-startups-and-small-companies/",
+                                    "copy": "Guide on how to make different types of hardware prototypes "
+                                },
+                                {
+                                    "url": "https://www.8base.com/blog/launching-a-low-code-practice-what-you-need-to-know-pt-1",
+                                    "copy": "How to evaluate a no-code platform"
+                                }
+                            ],
+                            "question": "What are your product's technical requirements?",
+                            "name": "mvpTechRequirements",
+                            "example": "Showflix was built using React, Node.js, Java, mySQL, AWS, Github, and Jenkins",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "MVP defined!",
+                            "name": "mvp-defined-end",
+                            "viewedBefore": "false",
+                            "initialViewTimestamp": null,
+                            "conclusion": "Congrats on finishing this step of the level! Here are some checklist items that we recommend doing at this point of your startup journey. You can find them in your checklist now.",
+                            "checklistItems": [
+                                "Start looking into your team's strengths and list out the skills you are missing to build your MVP",
+                                "Start planning each step for building your MVP and what you will need at each step",
+                                "Conduct a feasibility assessment to evaluate the technical viability of your product idea. Consider the technical challenges, complexity, and potential risks associated with implementing the desired features. ",
+                                "Sign co-founder equity agreements, if needed",
+                                "Sign team Non Disclosure Agreements or IP Assignment Agreements, if needed"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "End",
+                        "label": "level",
+                        "content": {
+                            "tableOfContentsCopy": "End of the level"
+                        }
+                    },
+                    {
+                        "type": "OnePager",
+                        "label": "level",
+                        "content": {
+                            "question": "",
+                            "tableOfContentsCopy": "One Pager"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "refine",
+                "label": "3. Refine",
+                "description": "This level is full of action, it's about bringing it together while keeping your customer as your north star. We will focus on building your brand and partnerships, working on your low fidelity Minimum Viable Product (MVP), and getting more user feedback.",
+                "content": {
+                    "totalQuestions": 8,
+                    "answeredQuestions": 0,
+                    "currentStep": 1,
+                    "lastUpdated": null,
+                    "isLevel": true
+                },
+                "steps": [
+                    {
+                        "type": "Introv2",
+                        "label": "Market",
+                        "content": {
+                            "image": "undraw_Community_re_cyrm.png",
+                            "tableOfContentsCopy": "Marketing and Partnerships",
+                            "intro": "It's time for you to build an identity and personality for your company. Lets build branding for your potential customers and partners, differentiate your company and offering from your competitors and start getting the word out there.",
+                            "outcomes": []
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "Creating your Venture's Identity",
+                            "title": "Creating your Venture's Identity",
+                            "tips": [
+                                {
+                                    "copy": "This is a good time to test out your company name with friends and family to understand if the name resonates with the product you are trying to build."
+                                },
+                                {
+                                    "copy": "Many AI applications can help you build a logo. We recommend something simple and effective to start with. Think of it as a starter home, you can always change it later as you refine your product and messaging."
+                                },
+                                {
+                                    "copy": "Identify the core values that are most essential and foundational to your brand. Narrow the list of potential values to a manageable number, typically around 3 to 5 key values."
+                                },
+                                {
+                                    "copy": "Your messaging should highlight your product or service's purpose, core benefits, competitive advantages, and unique features."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.bigcommerce.com/articles/ecommerce/how-to-name-a-business/",
+                                    "copy": "Great guide on how to name your business"
+                                },
+                                {
+                                    "url": "https://visme.co/blog/brand-strategy/",
+                                    "copy": "A guide on creating a brand strategy with a template to help organize everything"
+                                }
+                            ],
+                            "question": "What is your brand's messaging?",
+                            "name": "brandMessage",
+                            "example": "Showflix's brand messaging is around convenience, extensive selection, personalized recommendations, and a hassle-free rental experience.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "Building Partnerships",
+                            "title": "Building Partnerships",
+                            "tips": [
+                                {
+                                    "copy": "Key partnerships with other companies can help accelerate your growth, product development, joint marketing efforts, or shared resources. They can be industry experts, key customers, or companies with complementary products."
+                                },
+                                {
+                                    "copy": "Remember to think about your suppliers, service providers, manufacturers, distributors, logistics partners, cloud service providers, IT consultants, legal firms, marketing agencies, and anyone offering essential services you may not have in-house."
+                                },
+                                {
+                                    "copy": "Go deeper and understand not only how they will help you, but how you can help them."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.strategyzer.com/business-model-canvas/key-partnerships",
+                                    "copy": "A deeper explanation of who or what a Key Partner might look like for you business and what motivations usually are at the core of a partnership."
+                                },
+                                {
+                                    "url": "https://www.bcg.com/publications/2022/what-is-your-business-ecosystem-strategy",
+                                    "copy": "A walkthrough on if you should leverage partnerships to create or break into your industries ecosystems and how to do it."
+                                }
+                            ],
+                            "question": "List key partners and why they are important. If applicable, add how you are helping them.",
+                            "name": "keyPartners",
+                            "example": "Showflix made key partnerships in order to get started, with:\nMovie Studios and Distributors - to obtain the rights to rent their films on DVD. \nDVD Manufacturers and Suppliers - to ensure a steady supply of DVDs to meet customer demand. \nUnited States Postal Service (USPS) - for the efficient delivery of DVDs to customers' homes and for the return of rented DVDs.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "Brand and Partnerships Started!",
+                            "name": "brand-partnerships-end",
+                            "viewedBefore": "false",
+                            "initialViewTimestamp": null,
+                            "conclusion": "Congrats on finishing this step of the level! Here are some checklist items that we recommend doing at this point of your startup journey. You can find them in your checklist now.",
+                            "checklistItems": [
+                                "Update your company name, logo, and social on your company page",
+                                "Start Incorporating and registering your company",
+                                "Securing your social media handles",
+                                "Build a starter website",
+                                "Setup time to connect with your key partners"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "Product",
+                        "content": {
+                            "image": "undraw_video_upload_3d4u_orange.png",
+                            "tableOfContentsCopy": "Let's Start Building",
+                            "intro": "Moving forward with customer validation helps with that gut feeling every entrepreneur is looking for; in this stage, we will start building to facilitate rapid iteration for learning. We'll get you started with user flows, low fidelity Minimum Viable Product (MVP), and setting you up for a scalable product.",
+                            "outcomes": []
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "Your User Flow",
+                            "title": "Your User Flow",
+                            "tips": [
+                                {
+                                    "copy": "Think of how the user is going to interact with your application and what their experience is going to be like/"
+                                },
+                                {
+                                    "copy": "Even with a low-fidelity MVP, it's important to prioritize user experience. Ensure the interaction flow and user interface are intuitive and easy to understand."
+                                },
+                                {
+                                    "copy": "Get feedback from your ideal customers so you can get critical learnings before you spent a lot of time and resources on building anything."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://business.adobe.com/blog/basics/how-to-make-a-user-flow-diagram",
+                                    "copy": "Great guide on what a user flow is, and how to map one out for your users"
+                                },
+                                {
+                                    "url": "https://www.drawio.com/",
+                                    "copy": "Free flowchart tool for creating your user flow. Saves in your google drive as well."
+                                }
+                            ],
+                            "question": "What are your key experiences or actions for your user when they go through your product?",
+                            "name": "userFlowKeyActions",
+                            "example": "Showflix's key experiences were exploring genres and movies, personalized recommendations, and rental queue management.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "Picking your Technology",
+                            "title": "Picking your Technology",
+                            "tips": [
+                                {
+                                    "copy": "What tools do you need for your daily work?"
+                                },
+                                {
+                                    "copy": "What tools or software do you need to make your product?"
+                                },
+                                {
+                                    "copy": "Will you start with technology now and then upgrade or change them as you grow?"
+                                },
+                                {
+                                    "copy": "Is your technology compatible with your customer's tech? (i.e. Apple vs Android, your tech vs enterprise tech being used by your customer)"
+                                },
+                                {
+                                    "copy": "Look up reviews and research for any “gotchas” (i.e. G2, Reddit, or StackOverflow)"
+                                },
+                                {
+                                    "copy": "Research open source alternatives and startup pricing/promotions"
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://docs.google.com/spreadsheets/d/1UXT3cruZCvrHNhVJdfMB4il-RFQcMBgNcBN8AFA9sAc/edit?usp=sharing",
+                                    "copy": "FounderWay's template for tracking your technology."
+                                },
+                                {
+                                    "url": "https://www.middlestone.ltd/blog/steps-to-choosing-software-that-is-right-for-your-small-business",
+                                    "copy": "7-step guide on how to select software."
+                                }
+                            ],
+                            "question": "What tools and technology will you be using and for what?",
+                            "name": "technologyStack",
+                            "example": "Showflix had: WebSquare for web hosting, USPS for delivery, CustomerHub for CRM, React for frontend, and MS Office Tools for Admin Needs.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "MVP Roadmap",
+                            "title": "MVP Roadmap",
+                            "tips": [
+                                {
+                                    "copy": "This is an internal document to help you have an action plan for developing your MVP."
+                                },
+                                {
+                                    "copy": "Scope out the features you want to build by breaking down each feature into specific tasks that are needed to build it."
+                                },
+                                {
+                                    "copy": "Include an estimate of the effort, time, and resources required to complete each task."
+                                },
+                                {
+                                    "copy": "Be realistic with your timeline and deadlines."
+                                },
+                                {
+                                    "copy": "Make sure to define what success or completion looks like for each feature and task."
+                                },
+                                {
+                                    "copy": "What obstacles and challenges are you expecting, and how will you mitigate them?"
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.startdium.com/post/FounderWay-roadmap-framework",
+                                    "copy": "FounderWay's template for tracking your technology."
+                                },
+                                {
+                                    "url": "https://www.aha.io/roadmapping/guide/requirements-management/what-is-a-good-product-requirements-document-template",
+                                    "copy": "How to use a Product Requirements Document to break features down to specific tasks, and establish metrics to test for success. "
+                                }
+                            ],
+                            "question": "What are your key milestones, and how long will they take to achieve?",
+                            "name": "mvpRoadMapKeyMilestones",
+                            "example": "Showflix milestones were: confirm USPS can handle our deliveries (due 7/1), validate delivery times (due 7/5),  select and order movies for initial inventory (due 7/7) create webpage for ordering dvds (due 8/1), connect webpage to ordering system (due 8/20).",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "Building a Low-Fidelity MVP",
+                            "title": "Building a Low-Fidelity MVP",
+                            "tips": [
+                                {
+                                    "copy": "A low-fidelity MVP is a very basic version of your prototype, typically with minimum functionality. With the goal of testing key functionality fast, and getting feedback on things like your User Interface (UI, User Interactions (UX), and user flow one last time before you commit to building out a fully functional MVP."
+                                },
+                                {
+                                    "copy": "Keep your MVP goals and how you've validated your hypothesis in mind; going through one-pagers of levels 1 and 2 can help with this."
+                                },
+                                {
+                                    "copy": "For a digital application, use applications that can help you mock up the interface with a few screens, storyboard, or simple sketches, the goal is to have something your users can see and provide feedback."
+                                },
+                                {
+                                    "copy": "For a hardware products, get feedback on the digital 3D model, and use platforms like an Arduino or Raspberry Pi to test specific features."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.netsolutions.com/insights/how-to-build-an-mvp-minimum-viable-product-a-step-by-step-guide/ ",
+                                    "copy": "Great guide on how to create a MVP. Not: we are focused on low-fidelity MVP right now, which is not as functional as your true MVP."
+                                },
+                                {
+                                    "url": "https://www.protolabs.com/en-gb/resources/blog/accelerating-hardware-prototyping-for-startups-and-small-companies/",
+                                    "copy": "Guide on how to make different types of hardware prototypes."
+                                }
+                            ],
+                            "question": "What are you testing with your low-fidelity MVP?",
+                            "name": "lowFidelityMVPWhatIsBeingTested",
+                            "example": "Showflix sent test packages to see if USPS could deliver on time reliably. They also used basic screens to get feedback on their UI, UX, and to understand what movie genres had high demand.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "Brought Idea to Reality!",
+                            "name": "idea-to-reality-end",
+                            "viewedBefore": "false",
+                            "initialViewTimestamp": null,
+                            "conclusion": "Congrats on finishing this step of the level! Here are some checklist items that we recommend doing at this point of your startup journey. You can find them in your checklist now.",
+                            "checklistItems": [
+                                "Reassess the skills needed to build your MVP",
+                                "Look for corporate credits or startup promotions from companies like Microsoft and Amazon",
+                                "Securing your social media handles"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "Customer",
+                        "content": {
+                            "image": "undraw_Design_feedback_re_8gtk.png",
+                            "tableOfContentsCopy": "Show and Tell",
+                            "intro": "Let's show your customers what you've got!  If you noticed, we want to get customer feedback every time you work on your product. This is a tedious process, but it will pay off when you've built a product your customer wants to use. Every change you catch before you develop saves you time and money in the future.",
+                            "outcomes": []
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Customer",
+                        "content": {
+                            "tableOfContentsCopy": "User Feedback",
+                            "title": "User Feedback",
+                            "tips": [
+                                {
+                                    "copy": "Get feedback on your user flows, sketches, designs, landing pages, and mockups. As well as other assets you've created."
+                                },
+                                {
+                                    "copy": "Get feedback from your customers and other stakeholders that can provide valuable insight on building your product."
+                                },
+                                {
+                                    "copy": "Look for verbal feedback and reactions and observe their behaviors. Capture feedback through notes and recordings (do not forget to ask for permission)"
+                                },
+                                {
+                                    "copy": "You know the drill, build a script for consistency, set up interviews, and show up with an open mind, ready to listen and learn."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.oreilly.com/library/view/running-lean-2nd/9781449321529/ch11.html ",
+                                    "copy": "Basic interview questions for mvp feedback interview."
+                                },
+                                {
+                                    "url": "https://saaslessons.substack.com/p/14-interview-questions-pre-and-post",
+                                    "copy": "Additional interview questions for mvp feedback interview."
+                                }
+                            ],
+                            "question": "What are you getting feedback on and why?",
+                            "name": "lowFidelityMVPFeedbackAndWhy",
+                            "example": "Showflix wanted to get feedback on how users explored movies and how easy it was to rent movies. They wanted to ensure the platform was easy to use and a better experience than going in person to rent a movie.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Customer",
+                        "content": {
+                            "tableOfContentsCopy": "Breaking it Down",
+                            "title": "Breaking it Down",
+                            "tips": [
+                                {
+                                    "copy": "Identify patterns; what were the recurring themes, pain points, or feedback that emerged consistently?"
+                                },
+                                {
+                                    "copy": "Prioritize your findings based on your product goals, severity, and alignment."
+                                },
+                                {
+                                    "copy": "Leverage your team's diverse perspectives and expertise to gain deeper insights and generate potential solutions."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.notably.ai/blog/user-interview-analysis-how-to-turn-conversational-data-into-actionable-insights",
+                                    "copy": "Basic guide on how to turn your feedback data into insights for developing your product."
+                                },
+                                {
+                                    "url": "https://www.userinterviews.com/ux-research-field-guide-chapter/research-analysis",
+                                    "copy": "Expanded guide on how to analyze your feedback data."
+                                }
+                            ],
+                            "question": "What was your biggest learning from the feedback sessions?",
+                            "name": "lowFidelityMVPFeedbackBiggestLearnings",
+                            "example": "Showflix learned that their current way to explore movies had too many clicks to get to a genre of the user's interest. They also learned that users wanted movie reviews integrated into the platform to mimic the in-store experience.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "Customer",
+                        "content": {
+                            "tableOfContentsCopy": "Low Fidelity MVP Unveiled!",
+                            "name": "low-fidelity-mvp-end",
+                            "viewedBefore": "false",
+                            "initialViewTimestamp": null,
+                            "conclusion": "Congrats on finishing this step of the level! Here are some checklist items that we recommend doing at this point of your startup journey. You can find them in your checklist now.",
+                            "checklistItems": [
+                                "Reminder, take time to prioritize your feedback. Don't just jump into changes.",
+                                "Start looking into business banks",
+                                "If applicable, look into getting NDAs with your stakeholders"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "End",
+                        "label": "level",
+                        "content": {
+                            "tableOfContentsCopy": "End of the level"
+                        }
+                    },
+                    {
+                        "type": "OnePager",
+                        "label": "level",
+                        "content": {
+                            "question": "",
+                            "tableOfContentsCopy": "One Pager"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "launch",
+                "label": "4. Launch",
+                "description": "Get excited and roll up your sleeves! This level's activities are directly related to building your product and getting your first customer. We will focus on building a functional MVP and getting your ducks in a row for preparing to go to market and landing your first customer.",
+                "content": {
+                    "totalQuestions": 8,
+                    "answeredQuestions": 0,
+                    "currentStep": 1,
+                    "lastUpdated": null,
+                    "isLevel": true
+                },
+                "steps": [
+                    {
+                        "type": "Introv2",
+                        "label": "Product",
+                        "content": {
+                            "image": "undraw_To_the_stars_re_wq2x_orange.png",
+                            "tableOfContentsCopy": "Building a Functional MVP",
+                            "intro": "Time to gather feedback from your low-fidelity MVP and update your roadmap for the functional MVP. It's the perfect opportunity to reevaluate and consider pivoting or swapping features. Although it may be challenging, as your product is like your baby, it will save you time and resources. From here on, focus on building, testing, and iterating!",
+                            "outcomes": []
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "Product Planning and Building",
+                            "title": "Product Planning and Building",
+                            "tips": [
+                                {
+                                    "copy": "Update your MVP roadmap, features, and designs from the customer feedback you received in the last level on your low-fidelity MVP."
+                                },
+                                {
+                                    "copy": "Stay laser-focused on your core features that delight your customers and bring value."
+                                },
+                                {
+                                    "copy": "Consider your product architecture and infrastructure for future scalability."
+                                },
+                                {
+                                    "copy": "Verify the compatibility of all product components by testing them together, avoiding standalone development without considering their impact on the whole."
+                                },
+                                {
+                                    "copy": "Use version control and collaboration features to protect your work and undo product-breaking changes quickly."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://productschool.com/blog/product-fundamentals/prioritization-techniques-product-managers",
+                                    "copy": "How to determine what are must-have and nice-to-have features."
+                                },
+                                {
+                                    "url": "https://www.productplan.com/learn/strategies-prioritize-product-features/",
+                                    "copy": "Advance strategies on how to prioritize features."
+                                },
+                                {
+                                    "url": "https://sagaratechnology.medium.com/the-fundamentals-of-front-end-and-back-end-development-5973ac0910cf ",
+                                    "copy": "Great starter guide on how to create a full-code web application, and good knowledge for non-technical founders going the no-code route."
+                                }
+                            ],
+                            "question": "List your core features and what success looks like for your MVP and each feature.",
+                            "name": "coreFeaturesUpdatedWithSuccess",
+                            "example": "Showflix’s updated list with defined success: \nAbility to sort through their movie catalog - success being their conversion rate for people going on the website and adding a movie to their cart. \nAbility to order a movie and have it delivered - success being how reliable their delivery was.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "Product Testing",
+                            "title": "Product Testing",
+                            "tips": [
+                                {
+                                    "copy": "Implement analytics and tracking so you can confirm if you’ve hit your success criteria."
+                                },
+                                {
+                                    "copy": "Test on different devices and browsers to ensure consistency across platforms."
+                                },
+                                {
+                                    "copy": "Have customers test your product to help find things you might have overlooked."
+                                },
+                                {
+                                    "copy": "Track and fix bugs found by your customers."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://blog.hootsuite.com/how-to-set-up-google-analytics/",
+                                    "copy": "A guide on how to setup google analytics for basic website metric tracking."
+                                },
+                                {
+                                    "url": "https://www.lambdatest.com/cross-browser-testing",
+                                    "copy": "A guide on how to make a cross platform and browser compatible app."
+                                }
+                            ],
+                            "question": "How do you plan on testing your product?",
+                            "name": "testingPlan",
+                            "example": "Showflix tested on different browsers and did internal team testing on each feature. They also set up a way for customers to report broken features, and tracked users to make sure user flows and other things weren’t breaking.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "Help is Here",
+                            "title": "Help is Here",
+                            "tips": [
+                                {
+                                    "copy": "When you feel a lack of direction on your product remember to go back to your purpose and vision, remember to be customer-centric, avoid rabbit holes, and focus on time-bound activities."
+                                },
+                                {
+                                    "copy": "It’s ok to walk away; Rome wasn’t built in a day! Take time to rest so you do not get burned out."
+                                },
+                                {
+                                    "copy": "Focus on another aspect of your startup if you get stuck in one area. Remember, feeling stuck is a natural part of the founder's journey. The key is to remain proactive, keep learning, and persist in finding solutions to move forward."
+                                },
+                                {
+                                    "copy": "It takes a village, use your network to find advisors and mentors that you can reach out to for specific challenges. Alternatively, reach out to us and we can help."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.founderway.ai",
+                                    "copy": "Weekly office hours coming soon."
+                                },
+                                {
+                                    "url": "https://www.reddit.com/r/FounderWay",
+                                    "copy": "FounderWay Subreddit"
+                                },
+                                {
+                                    "url": "mailto:expert@founderway.ai",
+                                    "copy": "FounderWay Expert Access Email"
+                                },
+                                {
+                                    "url": "https://www.feedough.com/startup-communities/",
+                                    "copy": "List of online startup groups"
+                                }
+                            ],
+                            "question": "What are your biggest challenges?",
+                            "name": "challenges",
+                            "example": "Showflix had roadblocks with their user interface and design, but they had a great group of advisors and champions when things got tough who helped them take breaks and to connect with their team to bond, and solve problems together.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "Product",
+                        "content": {
+                            "tableOfContentsCopy": "Brand and Partnerships Started!",
+                            "name": "brand-partnerships-end",
+                            "viewedBefore": "false",
+                            "initialViewTimestamp": null,
+                            "conclusion": "Congrats on finishing this step of the level! Here are some checklist items that we recommend doing at this point of your startup journey. You can find them in your checklist now.",
+                            "checklistItems": [
+                                "Plan for backup and disaster recovery to protect against data loss",
+                                "Create and post on your website your Terms of Service, Privacy Policy, and End User License Agreement ",
+                                "Update pitch decks and documents with new product details"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "Market",
+                        "content": {
+                            "image": "undraw_Launching_re_tomg.png",
+                            "tableOfContentsCopy": "Preparing your Go-to-Market Strategy",
+                            "intro": "A common mistake by founders is to focus all their attention on their product building, and then forgetting  to do any planning and activities for sales and marketing.  In this step you will plan out your strategy for going to market, planning how you will do sales, and looking into pricing.",
+                            "outcomes": []
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "Getting Attention",
+                            "title": "Getting Attention",
+                            "tips": [
+                                {
+                                    "copy": "A marketing strategy is your plan for what platforms you will use to reach your customers, and what content will you create to get their attention."
+                                },
+                                {
+                                    "copy": "Post on the right platform, find where your customers spend their time."
+                                },
+                                {
+                                    "copy": "Social media calendar can be a great way to track what you want to post."
+                                },
+                                {
+                                    "copy": "Keep your content relevant, yes ChatGPT and other AI tools can create your content, but it makes sure you know what your audience wants."
+                                },
+                                {
+                                    "copy": "It helps to have at least three consistent topics for posts, helps with variety and keeping things consistent. Example: meme Monday, product Wednesday, and quote Friday."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://docs.google.com/spreadsheets/u/1/d/1TD9VJHGRqn6J7-LhCEYNT4dJAbFZ5EDSYTqU6oKNzSc/edit#gid=602734239",
+                                    "copy": "FounderWay’s AI Marketing Calendar template."
+                                },
+                                {
+                                    "url": "https://www.shopify.com/blog/marketing-calendar",
+                                    "copy": "In depth guide on how to make a marketing calendar."
+                                },
+                                {
+                                    "url": "https://www.searchenginejournal.com/social-media-content-strategy-from-start-to-finish/472028/#close",
+                                    "copy": "Guide to building your social media content strategy."
+                                }
+                            ],
+                            "question": "What are your marketing goals, what platforms do you want to target, and what messaging are you trying to get across?",
+                            "name": "marketingStrategy",
+                            "example": "Showflix used a combination of mailers to zip codes with a lot of movie rental stores and used social media to promote their services.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "Sales and Distribution",
+                            "title": "Sales and Distribution",
+                            "tips": [
+                                {
+                                    "copy": "Check out your competitor's pricing strategies, what your dollar value adds to the customer, and look at what your customers are willing to pay."
+                                },
+                                {
+                                    "copy": "Depending on who your end customer is, your sales life cycle may vary. Enterprise sales have longer sales cycles and require more relationship building."
+                                },
+                                {
+                                    "copy": "For B2B, determine who the enterprise's end users, decision-makers, and check writers are. This is typically called the “Buying Center.”"
+                                },
+                                {
+                                    "copy": "Keep in mind indirect and passive sales and distribution channels such as affiliate programs, partnerships, and using discount/promo codes."
+                                },
+                                {
+                                    "copy": "Go where your customers are; from your interviews, you have more knowledge about where they shop, and strategize the best ways to get in front of them."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://creately.com/diagram/example/dU28i5zmisl/customer-journey-map",
+                                    "copy": "How to using a customer journey map to help you build your sales process"
+                                },
+                                {
+                                    "url": "https://www.gong.io/blog/what-is-enterprise-sales/",
+                                    "copy": "Great guide on the different parts of an enterprise sales process."
+                                },
+                                {
+                                    "url": "https://blog.hubspot.com/sales/inbound-sales-methodology",
+                                    "copy": "A guide on inbound marketing, which is typically used for b2c or product led growth sales process, it is also a great strategy for enterprise sales."
+                                },
+                                {
+                                    "url": "https://www.30mpc.com/",
+                                    "copy": "Sale tool kit, templates, and more."
+                                }
+                            ],
+                            "question": "What is your sales and distribution strategy?",
+                            "name": "salesAndDistributionStrategy",
+                            "example": "When Showflix was offering online movie rentals sent directly to the consumer, they had to strategically place their warehouses to ensure they were delivering on time and reducing the cost of delivery.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "Pricing Strategy",
+                            "title": "Pricing Strategy",
+                            "tips": [
+                                {
+                                    "copy": "Check out your competitor's pricing strategies, what your dollar value adds to the customer, and look at what your customers are willing to pay."
+                                },
+                                {
+                                    "copy": "Survey or interview your target customers and ask  “how much they would pay for your product?”, “how much would be too much?” and “How much is extremely. overpriced?”.  These three questions will help you find the range you need to be in, with the 2nd question being your anchor price."
+                                },
+                                {
+                                    "copy": "Consider different types of models, Freemium, Subscription, and crowd-sourcing models for your B2C business model."
+                                },
+                                {
+                                    "copy": "Consider licensing your application to other businesses or entrepreneurs who want to use it under their brand or customize it for their needs."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://www.ycombinator.com/library/6h-startup-pricing-101",
+                                    "copy": "Breakdown on how to think about pricing and the dynamics around what type of strategies you need to think about for finding your optimal price."
+                                },
+                                {
+                                    "url": "https://www.shopify.com/blog/how-to-price-your-product ",
+                                    "copy": "How to think about pricing with relation to your costs and profits, also known as your unit economics."
+                                },
+                                {
+                                    "url": "https://www.surveymonkey.com/market-research/resources/top-pricing-strategies/?program=7013A000000mweBQAQ",
+                                    "copy": "In-depth guide for pricing research and strategies."
+                                },
+                                {
+                                    "url": "https://learn.marsdd.com/article/pricing-objectives-for-startups/",
+                                    "copy": "Understanding pricing for your startup stage"
+                                }
+                            ],
+                            "question": "What is your pricing strategy and why do you think your customer will pay your pricing?",
+                            "name": "pricingStrategy",
+                            "example": "Showflix’s first business model was to let people rent videos by selecting it online and having it delivered to their door for $3.99/per rental without late fees. This service was unparalleled at that time and a big shift in the industry.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "Market",
+                        "content": {
+                            "tableOfContentsCopy": "Ready to Launch!",
+                            "name": "ready-to-launch-end",
+                            "viewedBefore": "false",
+                            "initialViewTimestamp": null,
+                            "conclusion": "Congrats on finishing this step of the level! Here are some checklist items that we recommend doing at this point of your startup journey. You can find them in your checklist now.",
+                            "checklistItems": [
+                                "Look into CRM software to help track your customer relationships and interactions. Your sales and marketing processes can be saved here as well",
+                                "Create resources that will help you drum up interest with your potential first customers, if you are B2B think about making a demo and sales pitch decks, if you are B2C think about marketing material and content"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "Customer",
+                        "content": {
+                            "image": "undraw_High_five_re_jy71_red.png",
+                            "tableOfContentsCopy": "Get your First Customer!",
+                            "intro": "Let's get your first customer in the door! Ideally, your first customer is a paying customer, whether through a pilot program or through a “first adopter” discount. Though, in many instances, there is value in not charging your first customer in order to get market alignment and validation, and then have your second customer pay for it. Starting for free can also help if you are new to the industry and need to build up your reputation.",
+                            "outcomes": []
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Customer",
+                        "content": {
+                            "tableOfContentsCopy": "Sell to your First Customer",
+                            "title": "Sell to your First Customer",
+                            "tips": [
+                                {
+                                    "copy": "From the potential customers you have been speaking with, who is the best fit for you to pilot your product with?"
+                                },
+                                {
+                                    "copy": "For B2B companies, you want to ensure you are meeting with the right people. Your user might not be the check writer."
+                                },
+                                {
+                                    "copy": "For B2C companies, use promo codes and incentives for early adopters, and use your marketing channels to tell people that you have launched."
+                                },
+                                {
+                                    "copy": "Create hype around your product with your network, and gather champions to support and boost you."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://stripe.com/guides/atlas/starting-sales",
+                                    "copy": "Guide on identifying, approaching, and converting prospects into customers one at a time."
+                                },
+                                {
+                                    "url": "https://www.entrepreneur.com/starting-a-business/5-ways-to-get-your-first-customer/239158",
+                                    "copy": "Tips for getting your first customer."
+                                }
+                            ],
+                            "question": "Who will be your first customer? Will they be paying you? How will this help you get your next customer?",
+                            "name": "firstCustomerStrategy",
+                            "example": "Showflix’s first customer was the movie fanatics that they got feedback from. They charged them from the start and gave them referral codes for discounts for themselves and their friends.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "Customer",
+                        "content": {
+                            "tableOfContentsCopy": "Customer Success",
+                            "title": "Customer Success",
+                            "tips": [
+                                {
+                                    "copy": "Use metrics and analytics to make data-driven decisions and understand where your customers are dropping off or spending more time on your product. "
+                                },
+                                {
+                                    "copy": "Build a customer-first culture, validate your new features with your customers before building."
+                                },
+                                {
+                                    "copy": "Do not add new features to solve a problem, only to create new problems for yourself."
+                                },
+                                {
+                                    "copy": "Don't forget to talk to and listen carefully to your customers as they will always tell you what they want through their feedback."
+                                }
+                            ],
+                            "guidance": [
+                                {
+                                    "url": "https://blog.hubspot.com/service/customer-success-metrics ",
+                                    "copy": "Different metrics for customer success."
+                                },
+                                {
+                                    "url": "https://youtu.be/19WpIbBhxJU?t=234",
+                                    "copy": "Tips for getting your first customer."
+                                }
+                            ],
+                            "question": "What will be your process to measure customer success and to continue to get feedback from your customers?",
+                            "name": "customerSuccessStrategy",
+                            "example": "Showflix called their customers with the most rentals per month to get feedback, and sent out surveys to guiage product market fit.",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "Customer",
+                        "content": {
+                            "tableOfContentsCopy": "Got your First Customer!",
+                            "name": "first-customer-end",
+                            "viewedBefore": "false",
+                            "initialViewTimestamp": null,
+                            "conclusion": "Congrats on finishing this step of the level! Here are some checklist items that we recommend doing at this point of your startup journey. You can find them in your checklist now.",
+                            "checklistItems": [
+                                "Setup customer success analytics",
+                                "Set reminders to talk to customers"
+                            ]
+                        }
+                    },
+                    {
+                        "type": "End",
+                        "label": "level",
+                        "content": {
+                            "tableOfContentsCopy": "End of the level"
+                        }
+                    },
+                    {
+                        "type": "OnePager",
+                        "label": "level",
+                        "content": {
+                            "question": "",
+                            "tableOfContentsCopy": "One Pager"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "BusinessModelCanvasOnePager",
+                "label": "Business Model Canvas",
+                "description": "This one pager helps you summarize your business using the Business Model Canvas to better help you see how the core of your business, the key activities and resources you need, and how you will make money interact with each other.",
+                "content": {
+                    "totalQuestions": 25,
+                    "answeredQuestions": 0,
+                    "currentStep": 1,
+                    "lastUpdated": null,
+                    "isLevel": false,
+                    "onePagerGeneralType": "OnePager9Sections"
+                },
+                "steps": [
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "Link",
+                            "tableOfContentsCopy": "Key Partners",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "reference",
+                        "label": "general",
+                        "content": {
+                            "levelIndex": "2",
+                            "name": "keyPartners"
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Key Partners additional notes",
+                            "title": "Key Partners additional notes",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Key Partners additional notes:",
+                            "name": "BMCKeyPartnersNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "CheckSquare",
+                            "tableOfContentsCopy": "Key Activities",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "What Key Activities do your Value Propositions require?",
+                            "title": "What Key Activities do your Value Propositions require?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "What Key Activities do your Value Propositions require?",
+                            "name": "BMCKeyActivitiesFromPartners",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Key Activities additional notes",
+                            "title": "Key Activities additional notes",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Key Activities additional notes:",
+                            "name": "BMCKeyActivitiesNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "Factory",
+                            "tableOfContentsCopy": "Key Resources",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "reference",
+                        "label": "general",
+                        "content": {
+                            "levelIndex": "2",
+                            "name": "technologyStack"
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "What Key Resources do your Value Propositions require",
+                            "title": "What Key Resources do your Value Proposition",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "What Key Resources do your Value Propositions require?",
+                            "name": "BMCKeyResourceFromPartners",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Key Resources additional notes",
+                            "title": "Key Resources additional notes",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Key Resources additional notes:",
+                            "name": "BMCKeyResourcesNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "Gift",
+                            "tableOfContentsCopy": "Value Proposition",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "reference",
+                        "label": "general",
+                        "content": {
+                            "levelIndex": "0",
+                            "name": "problem"
+                        }
+                    },
+                    {
+                        "type": "reference",
+                        "label": "general",
+                        "content": {
+                            "levelIndex": "1",
+                            "name": "coreFeatures"
+                        }
+                    },
+                    {
+                        "type": "reference",
+                        "label": "general",
+                        "content": {
+                            "levelIndex": "1",
+                            "name": "differentiation"
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Value Proposition additional notes",
+                            "title": "Value Proposition additional notes",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Value Proposition additional notes:",
+                            "name": "BMCValuePropositionsNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "Heart",
+                            "tableOfContentsCopy": "Customer Relationships",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "what type of relationships will you need to establish with your customers?",
+                            "title": "what type of relationships will you need to establish with your customers?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "what type of relationships will you need to establish with your customers?",
+                            "name": "BMCCustomerRelationship",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Customer Relationships additional notes",
+                            "title": "Customer Relationships additional notes",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Customer Relationships additional notes:",
+                            "name": "BMCCustomerRelationshipsNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "Truck",
+                            "tableOfContentsCopy": "Channels",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Where do your customers spend their time?",
+                            "title": "Where do your customers spend their time?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Where do your customers spend their time?",
+                            "name": "customerWhereDoTheySpendTheirTime",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "What channels will you use or are already using to reach out to your customers?",
+                            "title": "What channels will you use or are already using to reach out to your customers?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "What channels will you use or are already using to reach out to your customers?",
+                            "name": "customerChannels",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "What channels are the most cost-efficient?",
+                            "title": "What channels are the most cost-efficient?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "What channels are the most cost-efficient?",
+                            "name": "customerWhatChannelsMostCostEfficient",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Channel additional notes",
+                            "title": "Channel additional notes",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Channel additional notes:",
+                            "name": "BMCChannelNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "Users",
+                            "tableOfContentsCopy": "Customer Segments",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "reference",
+                        "label": "general",
+                        "content": {
+                            "levelIndex": "0",
+                            "name": "targetIndustry"
+                        }
+                    },
+                    {
+                        "type": "reference",
+                        "label": "general",
+                        "content": {
+                            "levelIndex": "0",
+                            "name": "idealCustomer"
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Customer Segments additional notes",
+                            "title": "Customer Segments additional notes",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Customer Segments additional notes:",
+                            "name": "BMCCustomerSegmentsNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "Tag",
+                            "tableOfContentsCopy": "Cost Structure",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "What are the most important costs inherent in your business model?",
+                            "title": "What are the most important costs inherent in your business model?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "What are the most important costs inherent in your business model?",
+                            "name": "BMCCosts",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Cost Structure additional notes",
+                            "title": "Cost Structure additional notes",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Cost Structure additional notes:",
+                            "name": "BMCCostStructureNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "Money",
+                            "tableOfContentsCopy": "Revenue Streams",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "What are your revenue streams?",
+                            "title": "What are your revenue streams?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "What are your revenue streams?",
+                            "name": "BMCRevenueStreams",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "What values are your customers willing to pay for?",
+                            "title": "What values are your customers willing to pay for?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "What values are your customers willing to pay for?",
+                            "name": "BMCValuesWillingToPayFor",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Revenue Streams additional notes",
+                            "title": "Revenue Streams additional notes",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Revenue Streams additional notes:",
+                            "name": "BMCRevenueStreamsNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "LeanCanvasOnePager",
+                "label": "Lean Canvas",
+                "description": "This one pager helps you summarize your business using the Lean Model Canvas to better help you see the core areas of your business through a product first approach, and how they interact with each other",
+                "content": {
+                    "totalQuestions": 25,
+                    "answeredQuestions": 0,
+                    "currentStep": 1,
+                    "lastUpdated": null,
+                    "isLevel": false,
+                    "onePagerGeneralType": "OnePager9Sections"
+                },
+                "steps": [
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "Question",
+                            "tableOfContentsCopy": "Problem",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "reference",
+                        "label": "general",
+                        "content": {
+                            "levelIndex": "0",
+                            "name": "problem"
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "List the next top 2 problems your customers are facing",
+                            "title": "List the next top 2 problems your customers are facing",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "List the next top 2 problems your customers are facing:",
+                            "name": "LCOtherTop2Problems",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "Lightbulb",
+                            "tableOfContentsCopy": "Solution",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "reference",
+                        "label": "general",
+                        "content": {
+                            "levelIndex": "1",
+                            "name": "coreFeatures"
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Additional notes for your solution",
+                            "title": "Additional notes for your solution",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Additional notes for your solution:",
+                            "name": "LCSolutionNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "Gauge",
+                            "tableOfContentsCopy": "Key Metrics",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "reference",
+                        "label": "general",
+                        "content": {
+                            "levelIndex": "2",
+                            "name": "lowFidelityMVPWhatIsBeingTested"
+                        }
+                    },
+                    {
+                        "type": "reference",
+                        "label": "general",
+                        "content": {
+                            "levelIndex": "3",
+                            "name": "coreFeaturesUpdatedWithSuccess"
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Additional notes on what key activities you are measuring and why",
+                            "title": "Additional notes on what key activities you are measuring and why",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Additional notes on what key activities you are measuring and why",
+                            "name": "LCKeyMetricsNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "SketchLogo",
+                            "tableOfContentsCopy": "Unique Value Proposition",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "reference",
+                        "label": "general",
+                        "content": {
+                            "levelIndex": "1",
+                            "name": "differentiation"
+                        }
+                    },
+                    {
+                        "type": "reference",
+                        "label": "general",
+                        "content": {
+                            "levelIndex": "2",
+                            "name": "brandMessage"
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "What is your single clear compelling message that states why you are different and worth paying attention to?",
+                            "title": "What is your single clear compelling message that states why you are different and worth paying attention to?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "What is your single clear compelling message that states why you are different and worth paying attention to?:",
+                            "name": "LCUniqueValuePropositionNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Unique Value Proposition notes",
+                            "title": "Unique Value Proposition notes",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Unique Value Proposition notes:",
+                            "name": "LCUniqueValuePropositionNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "Scales",
+                            "tableOfContentsCopy": "Unfair Advantage",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "What advantage do you have that cant be easily copied or bought?",
+                            "title": "What advantage do you have that cant be easily copied or bought?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "What advantage do you have that cant be easily copied or bought?",
+                            "name": "LCUnfairAdvantage",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Unfair advantage additional notes",
+                            "title": "Unfair advantage additional notes",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Unfair advantage additional notes:",
+                            "name": "BMCCustomerRelationshipsNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "TreeStructure",
+                            "tableOfContentsCopy": "Channels",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Where do your customers spend their time?",
+                            "title": "Where do your customers spend their time?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Where do your customers spend their time?",
+                            "name": "customerWhereDoTheySpendTheirTime",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "What channels will you use or are already using to reach out to your customers?",
+                            "title": "What channels will you use or are already using to reach out to your customers?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "What channels will you use or are already using to reach out to your customers?",
+                            "name": "customerChannels",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "What channels are the most cost-efficient?",
+                            "title": "What channels are the most cost-efficient?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "What channels are the most cost-efficient?",
+                            "name": "customerWhatChannelsMostCostEfficient",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Channel additional notes",
+                            "title": "Channel additional notes",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Channel additional notes:",
+                            "name": "BMCChannelNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "Users",
+                            "tableOfContentsCopy": "Customer Segments",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "reference",
+                        "label": "general",
+                        "content": {
+                            "levelIndex": "0",
+                            "name": "targetIndustry"
+                        }
+                    },
+                    {
+                        "type": "reference",
+                        "label": "general",
+                        "content": {
+                            "levelIndex": "0",
+                            "name": "idealCustomer"
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Customer Segments additional notes",
+                            "title": "Customer Segments additional notes",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Customer Segments additional notes:",
+                            "name": "BMCCustomerSegmentsNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "Tag",
+                            "tableOfContentsCopy": "Cost Structure",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "What are the most important costs inherent in your business model?",
+                            "title": "What are the most important costs inherent in your business model?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "What are the most important costs inherent in your business model?",
+                            "name": "BMCCosts",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Cost Structure additional notes",
+                            "title": "Cost Structure additional notes",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Cost Structure additional notes:",
+                            "name": "BMCCostStructureNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    },
+                    {
+                        "type": "Introv2",
+                        "label": "general",
+                        "content": {
+                            "image": "Money",
+                            "tableOfContentsCopy": "Revenue Streams",
+                            "intro": "",
+                            "outcomes": [
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "What are your revenue streams?",
+                            "title": "What are your revenue streams?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "What are your revenue streams?",
+                            "name": "BMCRevenueStreams",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "What values are your customers willing to pay for?",
+                            "title": "What values are your customers willing to pay for?",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "What values are your customers willing to pay for?",
+                            "name": "BMCValuesWillingToPayFor",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "LongTextInputv2",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "Revenue Streams additional notes",
+                            "title": "Revenue Streams additional notes",
+                            "tips": [],
+                            "guidance": [],
+                            "question": "Revenue Streams additional notes:",
+                            "name": "BMCRevenueStreamsNotes",
+                            "example": "",
+                            "response": {
+                                "answer": null,
+                                "timestamp": null
+                            }
+                        }
+                    },
+                    {
+                        "type": "StepEnd",
+                        "label": "general",
+                        "content": {
+                            "tableOfContentsCopy": "",
+                            "name": "",
+                            "viewedBefore": "true",
+                            "initialViewTimestamp": null,
+                            "conclusion": "",
+                            "checklistItems": []
+                        }
+                    }
+                ]
+            }
+        ],
+        "createdAt": null
+    }
+}
