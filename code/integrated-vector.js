@@ -55,6 +55,22 @@ async function main() {
      } catch (error) {
         console.error("Failed to create or update skillset:", error);
     }
+
+    try {
+      await createOrUpdateIndexer();
+      console.log('Indexer created or updated successfully.');
+    } catch (error) {
+      console.error('Failed to create or update indexer:', error);
+    }
+
+    try {
+      await performVectorSearch();
+      console.log('Vector search performed successfully.');
+    } catch (error) {
+      console.error('Failed to perform vector search:', error);
+    }
+
+
 }
 
 async function uploadJsonToBlob() {
@@ -191,10 +207,7 @@ async function createOrUpdateSkillset() {
     let splitSkill = {
         name: "Split skill",
         description: "Split skill to chunk documents",
-        cognitiveServices: {
-            "@odata.type": "#Microsoft.Azure.Search.DefaultCognitiveServices"
-          },
-        "@odata.type": "#Microsoft.Skills.Text.SplitSkill",
+        odatatype: "#Microsoft.Skills.Text.SplitSkill",
         textSplitMode: "pages",
         context: "/document",
         maximumPageLength: 2000,
@@ -211,14 +224,11 @@ async function createOrUpdateSkillset() {
     let embeddingSkill = {
         name: "Azure OpenAI Embedding skill",
         description: "Skill to generate embeddings via Azure OpenAI",
-        cognitiveServices: {
-            "@odata.type": "#Microsoft.Azure.Search.DefaultCognitiveServices"
-          },
-        "@odata.type": "#Microsoft.Skills.Custom.AzureOpenAIEmbeddingSkill",
+        odatatype: "#Microsoft.Skills.Custom.AzureOpenAIEmbeddingSkill",
         context: "/document/pages/*",
-        azureOpenaiEndpoint,
-        azureOpenaiDeployment,
-        azureOpenaiKey,
+        resourceUri: azureOpenaiEndpoint,
+        deploymentId: azureOpenaiDeployment,
+        apiKey: azureOpenaiKey,
         inputs: [
             { name: "text", source: "/document/pages/*" }
         ],
@@ -231,7 +241,7 @@ async function createOrUpdateSkillset() {
     let skillset = {
         name: skillsetName,
         description: "Skillset to chunk documents and generating embeddings",
-        skills: [splitSkill, embeddingSkill]
+        skills: [splitSkill]
         // Add other necessary properties for the skillset
     };
 
@@ -240,6 +250,71 @@ async function createOrUpdateSkillset() {
     console.log(`Skillset '${skillsetName}' created or updated successfully.`);
 }
 
+async function createOrUpdateIndexer() {
+  const endpoint = process.env.AZURE_SEARCH_ENDPOINT;
+  const apiKey = process.env.AZURE_SEARCH_ADMIN_KEY;
+  const indexName = process.env.AZURE_SEARCH_INDEX_NAME;
+  const dataSourceName = `${indexName}-blob`; // Assuming the data source name follows this pattern
+  const skillsetName = `${indexName}-skillset`;
+ 
+  const indexerClient = new SearchIndexerClient(endpoint, new AzureKeyCredential(apiKey));
+ 
+  const indexerName = `${indexName}-indexer`;
+  
+  const indexer = {
+      name: indexerName,
+      description: "Indexer to index documents and generate embeddings",
+      skillsetName: skillsetName,
+      targetIndexName: indexName,
+      dataSourceName: dataSourceName,
+      fieldMappings: [
+          { sourceFieldName: "metadata_storage_name", targetFieldName: "title" }
+      ]
+  };
+ 
+  console.log(`Creating or updating indexer: ${indexerName}...`);
+  await indexerClient.createOrUpdateIndexer(indexer);
+  console.log(`Indexer '${indexerName}' created or updated successfully.`);
+ 
+  // Run the indexer
+  console.log(`Running indexer: ${indexerName}...`);
+  await indexerClient.runIndexer(indexerName);
+  console.log(`Indexer '${indexerName}' is running.`);
+}
+ 
+async function performVectorSearch() {
+  const endpoint = process.env.AZURE_SEARCH_ENDPOINT;
+  const indexName = process.env.AZURE_SEARCH_INDEX_NAME;
+  const apiKey = process.env.AZURE_SEARCH_ADMIN_KEY;
+ 
+  const searchClient = new SearchClient(
+      endpoint,
+      indexName,
+      new AzureKeyCredential(apiKey)
+  );
+ 
+  const query = "Which is more comprehensive, Northwind Health Plus vs Northwind Standard?";
+ 
+  // Assuming the 'generateEmbeddings' function is defined and returns the vector representation of the query
+  // const vector = await generateEmbeddings(query);
+ 
+  // For pure vector search, replace `searchText` with `null` and use `vectorQuery`
+  const results = await searchClient.search({
+      searchText: null, // No text search in this case, only vector
+      filter: null, // Add filters if needed
+      select: ["parent_id", "chunk_id", "chunk"],
+      top: 1,
+      // Uncomment the following line if you have a function to generate vector for the query
+      // vectorQuery: { vector, k: 1, scoringProfile: "myHnswProfile" }
+  });
+ 
+  for await (const result of results.results) {
+      console.log(`parent_id: ${result.parent_id}`);
+      console.log(`chunk_id: ${result.chunk_id}`);
+      console.log(`Score: ${result['@search.score']}`);
+      console.log(`Content: ${result.chunk}`);
+  }
+}
 
 
 
